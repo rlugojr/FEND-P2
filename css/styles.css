@@ -1,0 +1,42 @@
+.flex-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-frame {
+    width: 320px;
+    height:100%;
+    flex-shrink: 1;
+    align-content: center
+}
+
+ .flex-item-1 {
+    width: 300px;
+    height: 10%;
+    flex-shrink: 1;
+    align-content: center
+    
+}
+	
+ .flex-item-2 {
+    width: 300px;
+    height: 40%;
+    flex-shrink: 1;
+    align-content: center
+}
+	
+ .flex-item-3 {
+    width: 300px;
+    height: 50%;
+    flex-shrink: 1;
+    align-content: center
+}
+
+.pic{
+    width: 300px;
+    height: auto
+}
