@@ -5,38 +5,141 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color:rgb(81, 42, 68);
+    margin-top : 5%
 }
 
 .flex-frame {
-    width: 320px;
+    width: 360px;
     height:100%;
     flex-shrink: 1;
-    align-content: center
+    align-content: center;
+    box-shadow: -1px 5px 24px -1px #000;
 }
 
  .flex-item-1 {
-    width: 300px;
     height: 10%;
     flex-shrink: 1;
-    align-content: center
-    
+    background-color: rgb(221, 164, 111); 
+    align-content: center    
 }
 	
  .flex-item-2 {
-    width: 300px;
     height: 40%;
     flex-shrink: 1;
     align-content: center
 }
 	
  .flex-item-3 {
-    width: 300px;
     height: 50%;
     flex-shrink: 1;
     align-content: center
 }
 
+ .flex-item-4 {
+    height: 90%;
+    flex-shrink: 1;
+    align-content: center
+}
+
+#titleDiv{
+    text-align:  center;
+}
+
+#imageDiv{
+    width: 100%;
+}
+
 .pic{
-    width: 300px;
+    width: 100%;
     height: auto
 }
+
+.titleText{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center
+}
+
+.figureFrame{
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    font-weight: bold
+}
+
+.textContent{
+    background-color: #fff;
+    margin-top:  0;
+    margin-bottom:  2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align:  left
+}
+
+ul{
+    list-style-image: url('../img/bowling_ball.png');
+    margin-top: 8px
+}
+
+.facts{
+    font-weight: bold  
+}
+
+.stats{
+    font-style: italic
+}
+
+.textContentBack{
+    background-color: #fff;
+    margin: 4%;
+}
+
+.textBack{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+    font-size: 16px
+}
+
+.textBack.
+
+.container{
+    perspective: 800px;
+}
+
+.card{
+    text-align:left;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+
+.card:hover .front{
+    transform: rotateY(-180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0deg);
+}
+
+.face {
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    width: 360px;
+    background-color: rgb(229, 106, 84);
+    box-shadow: -1px 4px 24px -1px #000;
+}
+
+.face.front {
+    transform: rotateY(0deg);
+} 
+
+.face.back {
+    transform: rotateY(180deg);
+    border: 1px gray auto
+}
+

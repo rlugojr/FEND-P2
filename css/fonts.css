@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'MAGNETOB';
+	src: url('../fonts/MAGNETOB.eot');
+	src: local('MAGNETOB'), url('../fonts/MAGNETOB.woff') format('woff'), url('../fonts/MAGNETOB.ttf') format('truetype');
+    
+}
+
+@font-face {
+	font-family: 'MesquiteStd';
+	src: url('../fonts/MesquiteStd.eot');
+	src: local('MesquiteStd'), url('../fonts/MesquiteStd.woff') format('woff'), url('../fonts/MesquiteStd.ttf') format('truetype'), url('../fonts/MesquiteStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.fontMagneto {
+	font-family: 'MAGNETOB' !important;
+    color: #fff;
+    text-shadow:
+	1px 1px 0 #CCC,
+	2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+	3px 3px 0 #444,
+	4px 4px 0 #444,
+	5px 5px 0 #444,
+	6px 6px 0 #444; /* end of 4 level deep dark shadow */
+}
+
+.fontMesquite {
+    font-family: 'MesquiteStd' !important;
+    font-size: 60px;
+    color: #fff;
+    text-shadow:
+	1px 1px 0 #CCC,
+	2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+	3px 3px 0 #444,
+	4px 4px 0 #444,
+	5px 5px 0 #444,
+	6px 6px 0 #444; /* end of 4 level deep dark shadow */
+}
