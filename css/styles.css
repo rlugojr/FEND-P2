@@ -83,12 +83,20 @@ ul{
 }
 
 .facts{
+    font-family: 'Roboto';
     font-weight: bold  
 }
 
 .stats{
+    font-family: 'Roboto';
     font-style: italic
 }
+
+.flip{
+    width: 16px;
+    float: right
+}
+
 
 .textContentBack{
     background-color: #fff;
@@ -101,10 +109,9 @@ ul{
     padding-right: 2%;
     padding-bottom: 2%;
     text-align: left;
-    font-size: 16px
+    font-size: 15px;
+    font-family: 'Roboto'
 }
-
-.textBack.
 
 .container{
     perspective: 800px;
